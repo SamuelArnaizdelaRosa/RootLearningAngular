@@ -15,6 +15,9 @@ import { BBuscadorComponent } from './componentes/busqueda/b-buscador/b-buscador
 import { PCabeceraComponent } from './componentes/producto/p-cabecera/p-cabecera.component';
 import { PCaractCursoComponent } from './componentes/producto/p-caract-curso/p-caract-curso.component';
 import { PCompraComponent } from './componentes/producto/p-compra/p-compra.component';
+import { PTemasComponent } from './componentes/producto/p-temas/p-temas.component';
+import { PComentariosComponent } from './componentes/producto/p-comentarios/p-comentarios.component';
+import { PCursosRelacionadosComponent } from './componentes/producto/p-cursos-relacionados/p-cursos-relacionados.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { PCompraComponent } from './componentes/producto/p-compra/p-compra.compo
     BBuscadorComponent,
     PCabeceraComponent,
     PCaractCursoComponent,
-    PCompraComponent
+    PCompraComponent,
+    PTemasComponent,
+    PComentariosComponent,
+    PCursosRelacionadosComponent
   ],
   imports: [
     BrowserModule,

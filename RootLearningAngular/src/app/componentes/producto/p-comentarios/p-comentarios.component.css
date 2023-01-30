@@ -1,0 +1,31 @@
+#comentarios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 35% 0 5%;
+    color: white;
+    background-color: #192229;
+}
+
+#comentarios>div {
+    padding: 1vh 1vw;
+}
+
+#comentarios .comentario_user {
+    display: flex;
+    color: #1192EE;
+    font-size: 1.8vw;
+}
+
+.valoracion_com {
+    padding-left: 3vw;
+}
+
+.comentario>p {
+    font-size: 1.5vw;
+    padding-left: 3vw;
+}
+
+/*MOBILE*/
+@media screen and (max-width: 700px){
+    
+}

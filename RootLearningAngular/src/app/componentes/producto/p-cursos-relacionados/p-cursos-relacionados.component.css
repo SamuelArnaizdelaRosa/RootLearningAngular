@@ -1,0 +1,35 @@
+#cursos_relacionados {
+    margin: 15px 5% 0 5%;
+}
+
+#cursos_relacionados>div {
+    display: grid;
+    background-color: #1A1F23;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1vw;
+}
+
+#cursos_relacionados>p {
+    color: white;
+    padding-bottom: 0.5vh;
+    font-size: 2.4vw;
+    border-bottom: 2px solid black;
+}
+
+#cursos_relacionados .curso {
+    background-color: #3A3C3E;
+    text-align: center;
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+    border-radius: 2vw;
+    color: #1192EE;
+    font-size: 1.8vw;
+}
+
+.curso img {
+    width: 100%;
+}
+
+.curso p {
+    margin: 1vh 1vw;
+}

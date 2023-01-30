@@ -1,0 +1,745 @@
+/*TITULO*/
+#loguear{
+    /*Ancho maximo*/
+    max-width: 975px;
+    /*Centrar*/
+    margin: 0 auto ;
+    
+}
+
+#loguear h3{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+#loguear .active {
+    color: rgb(255, 255, 255) !important;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+
+.botones_loguear button{
+    background-color: #1F1960;
+    color: white;
+}
+
+
+.top{
+
+    display: flex;
+    align-items:center ;
+   flex-direction: column ;
+}
+
+
+#fac{
+    margin-top: 10px;
+}
+
+.botones_loguear button{
+   margin-bottom: 10px;
+   text-align: left;
+   width:350px;
+   font-weight: bold;
+   height: 45px;
+   font-size: 17px;
+   line-height: 15px;
+   display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.boton_facebook{
+    margin-top: 25px;
+    margin-bottom: 6px;
+    background-color: #1F1960;
+    color: white;
+    display: inline-block;
+}
+
+
+
+ .autenticacion input{
+        margin-top: 7px;
+        margin-bottom: 7px;
+        width:350px;
+        display: block;
+        height: 42px;
+        text-align: left;
+        font-size: 17px;
+        background-color: transparent;
+        border-radius: 8px;
+        color:white;
+ }
+.parrafo_boton{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+.iniciar_sesion{
+    background-color: #1F1960;
+    color: white;
+    text-align: center;
+    width:350px;
+    height: 45px;
+    font-size: 17px;
+}
+#botonBootstrap{
+    background-color: #1F1960;
+    color: white;
+    text-align: center;
+    width:350px;
+    height: 45px;
+    font-size: 17px;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*movil*/
+
+
+@media (max-width: 1689px) {
+    .contenido img{
+       width: 240px;
+       height: 200px;;  
+       }
+   
+     .contenido{
+       margin: auto;
+       width: 30%;
+       height: 27%;
+       background: white;
+       border-radius: 10px;
+       }
+       .modal .contenido h2{
+           font-size: 17px;
+       }
+       footer{
+         position: none;
+         bottom: none;
+         height: 150px;
+         width: 100%;
+     }
+     #cerrar + label{
+         margin-top: 13%;
+         
+     }
+     footer img{
+         width: 250px;
+         height: auto;
+     }
+     footer a{
+         font-size: medium;
+     }
+     footer #politica{
+         font-size: x-small;
+ 
+     }
+   }
+
+   /*movil*/
+
+
+  @media (max-width: 1500px) {
+    .contenido img{
+       width: 240px;
+       height: 200px;;  
+       }
+   
+     .contenido{
+       margin: auto;
+       width: 30%;
+       height: 27%;
+       background: white;
+       border-radius: 10px;
+       }
+       .modal .contenido h2{
+           font-size: 17px;
+       }
+       footer{
+         position: none;
+         bottom: none;
+         height: 150px;
+         width: 100%;
+     }
+     #cerrar + label{
+         margin-top: 13%;
+     }
+     footer img{
+         width: 200px;
+         height: auto;
+     }
+     #politica{
+        font-size: small;
+    }
+   }
+
+   @media (max-width: 1370px) {
+    .contenido img{
+       width: 240px;
+       height: 200px;;  
+       }
+   
+     .contenido{
+       margin: auto;
+       width: 30%;
+       height: 27%;
+       background: white;
+       border-radius: 10px;
+       }
+       .modal .contenido h2{
+           font-size: 17px;
+       }
+       footer{
+         position: none;
+         bottom: none;
+         height: 150px;
+     }
+     #cerrar + label{
+         margin-top: 13%;
+     }
+     footer img{
+         width: 200px;
+         height: auto;
+     }
+     #politica{
+        font-size: small;
+    }
+
+    footer #redes_sociales svg{
+        width: 40px;
+        margin: 0 0 0 0;
+
+ }
+   }
+
+   @media (max-width: 1280px) {
+    .contenido img{
+       width: 240px;
+       height: 200px;;  
+       }
+   
+     .contenido{
+       margin: auto;
+       width: 30%;
+       height: 27%;
+       background: white;
+       border-radius: 10px;
+       }
+       .modal .contenido h2{
+           font-size: 17px;
+       }
+       footer{
+         position: none;
+         bottom: none;
+         height: 150px;
+        }
+
+        footer svg{
+            width: 20px;
+        }
+     #cerrar + label{
+         margin-top: 13%;
+     }
+     footer img{
+         width: 200px;
+         height: auto;
+     }
+     
+     #copyright{
+        font-size: small;
+    }
+    footer #redes_sociales svg{
+        width: 30px;
+        margin: 0 0 0 0;
+
+ }
+   }
+
+
+   
+   @media (max-width: 1110px) {
+    .contenido img{
+       width: 240px;
+       height: 200px;;  
+       }
+   
+     .contenido{
+       margin: auto;
+       width: 30%;
+       height: 27%;
+       background: white;
+       border-radius: 10px;
+       }
+       .modal .contenido h2{
+           font-size: 17px;
+       }
+       footer{
+         position: none;
+         bottom: none;
+         height: 150px;
+        }
+
+    footer svg{
+           width: 18px;
+    }
+
+     #cerrar + label{
+         margin-top: 13%;
+     }
+     footer img{
+         width: 200px;
+         height: auto;
+     }
+     
+     #copyright{
+        font-size: small;
+    }
+   }
+
+
+
+@media (max-width: 990px) {
+  .botones_loguear button{
+    width: 250px ;
+ }
+
+  .botones_loguear div input{
+    width: 244px ;
+ }
+ footer{
+    background-color: #1A1F23;
+    width: 100%;
+ }
+ 
+
+ .parrafo_boton{
+    font-size:13px ;
+ }
+
+ .botones_loguear button {
+    width: 98%;
+ }
+ .contenido img{
+    width: 140px;
+    height: 120px;
+    display: block;
+    margin: auto;
+    }
+  .contenido{
+    margin: auto;
+    width: 40%;
+    height: 27%;
+    background: white;
+    border-radius: 10px;
+    }
+    .modal .contenido h2{
+        font-size: 17px;
+    }
+    footer{
+        position: none;
+        bottom: none;
+        width: 100%;
+        height: 150px;
+    }
+    #cerrar + label{
+        margin-top: 18%;
+       
+    }
+    footer img{
+        width: 250px;
+        height: auto;
+    }
+
+    footer #enlaces_footer{
+        font-size: xx-small;
+    }
+    #copyright{
+        font-size: small;
+    }
+
+    footer #redes_sociales svg{
+        width: 16px;
+        margin: 0 0 0 0;
+ }
+}
+
+
+
+
+
+@media (max-width: 1050px) {
+    .botones_loguear button{
+        width: 240px ;
+     }
+      .autenticacion div input{
+        width: 245px ;
+     }
+
+     #botonBootstrap{
+        width: 243px;
+    }
+
+     .parrafo_boton{
+        font-size:15px ;
+     }
+    
+     .iniciar_sesion{
+        width: 240px ;
+     }
+     .botones_loguear button {
+        width: 100%;
+     }
+     .contenido img{
+        width: 160px;
+        height: 120px;
+        display: block;
+        margin: auto;
+        }
+      .contenido{
+        margin: auto;
+        width: 30%;
+        height: 20%;
+        background: white;
+        border-radius: 10px;
+        }
+        .modal .contenido h2{
+            font-size: 17px;
+        }
+        footer{
+            position: none;
+            bottom: none;
+            width: 100%;
+            height: 170px;
+            
+        }
+        #cerrar + label{
+            margin-top: 10%;
+            
+        }
+        footer #redes_sociales svg{
+            width: 15px;
+            margin: 0 0 0 0;
+
+     }
+}
+
+
+@media (max-width: 893px) {
+    .botones_loguear button{
+        width: 240px ;
+     }
+      .autenticacion div input{
+        width: 245px ;
+     }
+
+     #botonBootstrap{
+        width: 243px;
+    }
+
+     .parrafo_boton{
+        font-size:15px ;
+     }
+    
+     .iniciar_sesion{
+        width: 240px ;
+     }
+     .botones_loguear button {
+     width: 100%;
+     }
+     .contenido img{
+        width: 160px;
+        height: 120px;
+        display: block;
+        margin: auto;
+        }
+      .contenido{
+        margin: auto;
+        width: 30%;
+        height: 20%;
+        background: white;
+        border-radius: 10px;
+        }
+        .modal .contenido h2{
+            font-size: 17px;
+        }
+        footer{
+            position: none;
+            bottom: none;
+            width: 100%;
+        }
+        #cerrar + label{
+            margin-top: 10%;
+            
+        }
+        footer #redes_sociales svg{
+            width: 30px;
+            margin: 0 0 0 0;
+     }
+
+     footer img{
+        width: 170px;
+        height: 120;
+     }
+}
+
+
+@media (max-width: 790px) {
+    .botones_loguear button{
+        width: 240px ;
+     }
+      .autenticacion div input{
+        width: 245px ;
+     }
+
+     #botonBootstrap{
+        width: 243px;
+    }
+
+     .parrafo_boton{
+        font-size:15px ;
+     }
+    
+     .iniciar_sesion{
+        width: 240px ;
+     }
+     .botones_loguear button {
+     width: 100%;
+     }
+     .contenido img{
+        width: 160px;
+        height: 120px;
+        display: block;
+        margin: auto;
+        }
+      .contenido{
+        margin: auto;
+        width: 30%;
+        height: 20%;
+        background: white;
+        border-radius: 10px;
+        }
+        .modal .contenido h2{
+            font-size: 17px;
+        }
+        footer{
+            position: none;
+            bottom: none;
+            width: 100%;
+        }
+        #cerrar + label{
+            margin-top: 10%;
+            
+        }
+        footer #redes_sociales svg{
+            width: 20px;
+            margin: 0 0 0 0;
+     }
+     footer img{
+        max-width: auto;
+        height: auto;
+
+}
+}
+
+@media (max-width: 650px) {
+    .botones_loguear button{
+        width: 240px ;
+     }
+      .autenticacion div input{
+        width: 245px ;
+     }
+
+     #botonBootstrap{
+        width: 243px;
+    }
+
+     .parrafo_boton{
+        font-size:15px ;
+     }
+    
+     .iniciar_sesion{
+        width: 240px ;
+     }
+     .botones_loguear button {
+     width: 100%;
+     }
+     .contenido img{
+        width: 160px;
+        height: 120px;
+        display: block;
+        margin: auto;
+        }
+      .contenido{
+        margin: auto;
+        width: 30%;
+        height: 20%;
+        background: white;
+        border-radius: 10px;
+        }
+        .modal .contenido h2{
+            font-size: 17px;
+        }
+        footer{
+            position: none;
+            bottom: none;
+            width: 100%;
+        }
+        #cerrar + label{
+            margin-top: 10%;
+            
+        }
+        footer #redes_sociales svg{
+            width: 20px;
+            margin: 0 0 0 0;
+     }
+     footer img{
+        max-width: auto;
+        height: auto;
+
+    }
+    #copyright{
+            font-size: 8px;
+    }
+
+    #cerrar + label{
+        margin-top: 18%;
+       
+    }
+}
+
+@media (max-width: 590px) {
+
+     .contenido img{
+        width: 140px;
+        height: 80px;
+        display: block;
+        margin: auto;
+        }
+      .contenido{
+        margin: auto;
+        width: 30%;
+        height: 15%;
+        background: white;
+        border-radius: 10px;
+        }
+        .modal .contenido h2{
+            font-size: 15px;
+        }
+        #cerrar + label{
+            margin-top: 25%;
+        }
+
+        footer{
+            position: none;
+            bottom: none;
+            width: 100%;
+        }
+        
+        footer #redes_sociales svg{
+            width: 30px;
+            margin: 0 0 0 0;
+        }
+         footer img{
+            width: 200px;
+            height: auto;
+        }
+        footer p{
+            display: none;
+           }
+
+
+
+}
+
+@media (max-width: 500px) {
+
+    .contenido img{
+       width: 140px;
+       height: 80px;
+       display: block;
+       margin: auto;
+       }
+     .contenido{
+       margin: auto;
+       width: 30%;
+       height: 15%;
+       background: white;
+       border-radius: 10px;
+       }
+       .modal .contenido h2{
+           font-size: 15px;
+       }
+       #cerrar + label{
+           margin-top: 25%;
+       }
+
+       footer{
+           position: none;
+           bottom: none;
+           width: 100%;
+       }
+       footer p{
+        display: none;
+       }
+       
+       footer #redes_sociales svg{
+        width: 30px;
+        margin: 0 0 0 0;
+    }
+        footer img{
+           width: 200px;
+           height: auto;
+       }
+
+}
+@media (max-width: 450px) {
+
+    .contenido img{
+       width: 140px;
+       height: 80px;
+       display: block;
+       margin: auto;
+       }
+     .contenido{
+       margin: auto;
+       width: 40%;
+       height: 15%;
+       background: white;
+       border-radius: 10px;
+       }
+       .modal .contenido h2{
+           font-size: 15px;
+       }
+       footer p{
+        display: none;
+       }
+       footer{
+        position: none;
+        bottom: none;
+        width: 100%;
+    }
+    footer img{
+        width: 200px;
+        height: auto;
+    }
+    #cerrar + label{
+        margin-top: 25%;
+    }
+
+    footer #redes_sociales svg{
+        width: 20px;
+        margin: 0 0 0 0;
+ }
+}

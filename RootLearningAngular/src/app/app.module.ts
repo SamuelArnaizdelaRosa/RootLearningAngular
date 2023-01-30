@@ -18,6 +18,8 @@ import { PCompraComponent } from './componentes/producto/p-compra/p-compra.compo
 import { PTemasComponent } from './componentes/producto/p-temas/p-temas.component';
 import { PComentariosComponent } from './componentes/producto/p-comentarios/p-comentarios.component';
 import { PCursosRelacionadosComponent } from './componentes/producto/p-cursos-relacionados/p-cursos-relacionados.component';
+import { LPopupComponent } from './componentes/login/l-popup/l-popup.component';
+import { LContenidoComponent } from './componentes/login/l-contenido/l-contenido.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { PCursosRelacionadosComponent } from './componentes/producto/p-cursos-re
     PCompraComponent,
     PTemasComponent,
     PComentariosComponent,
-    PCursosRelacionadosComponent
+    PCursosRelacionadosComponent,
+    LPopupComponent,
+    LContenidoComponent
   ],
   imports: [
     BrowserModule,

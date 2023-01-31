@@ -13,6 +13,12 @@ import { RegisterComponent } from './paginas/register/register.component';
 import { CestaComponent } from './paginas/cesta/cesta.component';
 import { BBuscadorComponent } from './componentes/busqueda/b-buscador/b-buscador.component';
 import { PCabeceraComponent } from './componentes/producto/p-cabecera/p-cabecera.component';
+import { BNavComponent } from './componentes/busqueda/b-nav/b-nav.component';
+import { BTodosComponent } from './componentes/busqueda/b-todos/b-todos.component';
+import { BDestacadosComponent } from './componentes/busqueda/b-destacados/b-destacados.component';
+import { BCursosComponent } from './componentes/busqueda/b-cursos/b-cursos.component';
+import { BTalleresComponent } from './componentes/busqueda/b-talleres/b-talleres.component';
+import { BComunidadComponent } from './componentes/busqueda/b-comunidad/b-comunidad.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +32,13 @@ import { PCabeceraComponent } from './componentes/producto/p-cabecera/p-cabecera
     RegisterComponent,
     CestaComponent,
     BBuscadorComponent,
-    PCabeceraComponent
+    PCabeceraComponent,
+    BNavComponent,
+    BTodosComponent,
+    BDestacadosComponent,
+    BCursosComponent,
+    BTalleresComponent,
+    BComunidadComponent
   ],
   imports: [
     BrowserModule,

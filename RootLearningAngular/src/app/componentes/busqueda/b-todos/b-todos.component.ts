@@ -17,4 +17,8 @@ export class BTodosComponent implements OnInit{
     
     this.selecionado.style.boxShadow = "inset 0px -5px 0px 0px #1192EE";
   }
+
+  carrousel() {
+    
+  }
 }

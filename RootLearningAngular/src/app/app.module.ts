@@ -29,7 +29,12 @@ import { PCursosRelacionadosComponent } from './componentes/producto/p-cursos-re
 
 import { LPopupComponent } from './componentes/login/l-popup/l-popup.component';
 import { LContenidoComponent } from './componentes/login/l-contenido/l-contenido.component';
+<<<<<<< HEAD
 import { RContenidoComponent } from './componentes/register/r-contenido/r-contenido.component';
+=======
+import { CCompraComponent } from './componentes/cesta/c-compra/c-compra.component';
+import { CCompra2Component } from './componentes/cesta/c-compra2/c-compra2.component';
+>>>>>>> 4e386617ab6432dde82e58963f362f9d2f4b9876
 
 @NgModule({
   declarations: [
@@ -57,7 +62,12 @@ import { RContenidoComponent } from './componentes/register/r-contenido/r-conten
     PCursosRelacionadosComponent,
     LPopupComponent,
     LContenidoComponent,
+<<<<<<< HEAD
     RContenidoComponent
+=======
+    CCompraComponent,
+    CCompra2Component
+>>>>>>> 4e386617ab6432dde82e58963f362f9d2f4b9876
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,72 @@
+<section class="form-register">
+    <div class="icon"><img id="icon" src="../../../assets/Images/logo.png"></div>
+    <h1>Crea tu cuenta</h1>
+    <hr>
+    <h4>Usa tus redes sociales</h4>
+    <div class="buttons">
+        <button id="button1" type="button" class="btn btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48"
+                width="15" height="15">
+                <defs>
+                    <path id="a" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 
+                2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z" />
+                </defs>
+                <clipPath id="b">
+                    <use xlink:href="#a" overflow="visible" />
+                </clipPath>
+                <path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z" />
+                <path clip-path="url(#b)" fill="#EA4335" d="M0 11l17 13 7-6.1L48 14V0H0z" />
+                <path clip-path="url(#b)" fill="#34A853" d="M0 37l30-23 7.9 1L48 0v48H0z" />
+                <path clip-path="url(#b)" fill="#4285F4" d="M48 48L17 24l-4-3 35-10z" />
+            </svg><span>Google</span>
+        </button>
+        <button id="button2" type="button" class="btn btn-primary">
+            <svg width="15" height="15" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.641602" width="34.7334" height="35" rx="17.3667" fill="#1877F2" />
+                <path
+                    d="M24.7684 22.5586L25.5384 17.5H20.7219V14.2188C20.7219 12.8345 21.3935 11.4844 23.5507 11.4844H25.7419V7.17773C25.7419 7.17773 23.7542 6.83594 21.8548 6.83594C17.8862 6.83594 15.2948 9.25928 15.2948 13.6445V17.5H10.8853V22.5586H15.2948V34.7881C16.1801 34.9282 17.0857 35 18.0083 35C18.9309 35 19.8366 34.9282 20.7219 34.7881V22.5586H24.7684Z"
+                    fill="white" />
+            </svg><span>Facebook</span>
+        </button>
+        <button id="button3" type="button" class="btn btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 496.255 608.728">
+                <path d="M273.81 52.973C313.806.257 369.41 0 369.41 0s8.271 49.562-31.463 97.306c-42.426 50.98-90.649
+             42.638-90.649 42.638s-9.055-40.094 26.512-86.971zM252.385 174.662c20.576 0 58.764-28.284 108.471-28.284
+              85.562 0 119.222 60.883 119.222 60.883s-65.833 33.659-65.833 115.331c0 92.133 82.01 123.885 82.01 123.885s-57.328 
+              161.357-134.762 161.357c-35.565 0-63.215-23.967-100.688-23.967-38.188 0-76.084 24.861-100.766 24.861C89.33 608.73 
+              0 455.666 0 332.628c0-121.052 75.612-184.554 146.533-184.554 46.105 0 81.883 26.588 105.852 26.588z"
+                    fill="#999" />
+            </svg><span>Apple</span>
+        </button>
+    </div>
+    <h4>Usa tu correo electrónico</h4>
+    <form>
+        <div class="names">
+            <span>Nombre</span>
+            <input class="text_input" type="text" name="nombres" id="nombres" placeholder="Escribe tu nombre" required>
+        </div>
+        <div class="surnames">
+            <span>Apellidos</span>
+            <input class="text_input" type="text" name="apellidos" id="apellidos" placeholder="Escribe tus apellidos"
+                required>
+        </div>
+        <div class="mail">
+            <span>Correo Electrónico</span>
+            <input class="text_input" type="email" name="correo" id="correo" placeholder="Escribe tu correo electrónico"
+                required>
+        </div>
+        <div class="contra">
+            <span>Contraseña</span>
+            <input class="text_input" type="password" name="contrasena" id="contrasena"
+                placeholder="Escribe tu contraseña" required>
+        </div>
+        <div class="r_contra">
+            <span>Repetir contraseña</span>
+            <input class="text_input" type="text" name="r_contrasena" id="r_contrasena"
+                placeholder="Repite tu contraseña" required>
+        </div>
+        <input class="btn btn-secondary" type="submit" value="Registrar">
+    </form>
+
+    <span id="login">¿Ya tienes cuenta? <a href="LoginBootstrap.html">inicia sesión</a></span>
+</section>

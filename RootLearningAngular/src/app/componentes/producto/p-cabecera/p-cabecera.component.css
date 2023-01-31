@@ -77,3 +77,32 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 700px){
+    #cabecera {
+        flex-direction: column-reverse;
+        margin: 0 5%;
+        text-align: center;
+    }
+
+    #datos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.5vw;
+        padding-top: 0;
+    }
+
+    #puntuacion p {
+        display: none;
+    }
+
+    #datos h1 {
+        font-size: 10vw;
+    }
+
+    #img_curso {
+        width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+#caract_curso {
+    padding: 15px 35% 0 5%;
+    color: white;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    background-color: #192229;
+}
+
+#caract_curso>div {
+    text-align: center;
+    align-items: center;
+    background-color: #3A3C3E;
+    width: 7vw;
+    height: 7vh;
+    margin: 5px 0;
+    padding-top: 5px;
+    padding-bottom: 0;
+    font-size: 1.2vw;
+}
+
+#caract_curso>div p {
+    margin-bottom: 10px;
+    margin-top: 2PX;
+}
+
+@media screen and (max-width: 950px) {
+    #caract_curso {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #caract_curso>div {
+        width: 70%;
+        font-size: 1.5vw;
+    }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 700px){
+    #caract_curso {
+        padding: 15px 5% 0 5%;
+    }
+
+    #caract_curso>div {
+        font-size: 3vw;
+    }
+}

@@ -1,0 +1,106 @@
+#compra {
+    position: fixed;
+    background-color: #2A316A;
+    border-radius: 5%;
+    margin-right: 5%;
+    color: white;
+    width: 22%;
+    margin-top: -7vh;
+    left: 70%;
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+#compra p {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#compra #precio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#compra .oferta {
+    color: #FD6262;
+}
+
+#compra img {
+    max-width: 80%;
+    margin-top: 1vh;
+}
+
+#compra #cuenta_atras {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FD6262;
+}
+
+#compra button {
+    width: 15vw;
+    height: 5vh;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+#compra .garantia {
+    font-size: 1.4vw;
+    text-decoration: underline;
+}
+
+/*Paso intermedio de Desktop*/
+@media screen and (max-width: 950px){
+    #compra {
+        margin-top: -15vh;
+    }
+}
+
+/*Desktop mas de 2170px*/
+@media screen and (min-width: 2170px) {
+    #compra {
+        margin-top: -35vh;
+        left: 75%;
+    }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 700px){
+    #compra {
+        width: 100%;
+        left: 0;
+        font-size: 7vw;
+        text-align: right;
+        margin-top: 9vh;
+    }
+
+    #compra img {
+        display: none;
+    }
+
+    #compra button {
+        width: 50%;
+        font-size: 5vw;
+        right: 0;
+        float: right;
+        height: 7vh;
+        margin-bottom: 1vh;
+    }
+
+    #compra #precio {
+        justify-content: center;
+    }
+
+    #compra p {
+        margin-left: 5vw;
+    }
+
+    .garantia {
+        text-align: left;
+        font-size: 5vw !important;
+    }
+}

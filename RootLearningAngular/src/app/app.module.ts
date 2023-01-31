@@ -29,6 +29,7 @@ import { PCursosRelacionadosComponent } from './componentes/producto/p-cursos-re
 
 import { LPopupComponent } from './componentes/login/l-popup/l-popup.component';
 import { LContenidoComponent } from './componentes/login/l-contenido/l-contenido.component';
+import { RContenidoComponent } from './componentes/register/r-contenido/r-contenido.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { LContenidoComponent } from './componentes/login/l-contenido/l-contenido
     PComentariosComponent,
     PCursosRelacionadosComponent,
     LPopupComponent,
-    LContenidoComponent
+    LContenidoComponent,
+    RContenidoComponent
   ],
   imports: [
     BrowserModule,

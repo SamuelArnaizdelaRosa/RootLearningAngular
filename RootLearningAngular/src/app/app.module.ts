@@ -19,6 +19,7 @@ import { BDestacadosComponent } from './componentes/busqueda/b-destacados/b-dest
 import { BCursosComponent } from './componentes/busqueda/b-cursos/b-cursos.component';
 import { BTalleresComponent } from './componentes/busqueda/b-talleres/b-talleres.component';
 import { BComunidadComponent } from './componentes/busqueda/b-comunidad/b-comunidad.component';
+import {CarouselModule} from 'primeng/carousel';
 
 import { PCabeceraComponent } from './componentes/producto/p-cabecera/p-cabecera.component';
 import { PCaractCursoComponent } from './componentes/producto/p-caract-curso/p-caract-curso.component';
@@ -59,7 +60,8 @@ import { LContenidoComponent } from './componentes/login/l-contenido/l-contenido
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,68 @@
+/*titulos*/
+.titulo_buscar {
+    padding: 0px 20px;
+    margin: 30px 0;
+    font-size: 25px;
+    color: white;
+}
+
+/*Cursos*/
+.curso {
+    width: 382px;
+    margin: 0px;
+    padding-bottom: 5%;
+    text-align: center;
+
+    background: #424649;
+    border-radius: 37px;
+    color: white;
+}
+
+.curso_titulo {
+    font-size: 30px;
+    padding: 25px 0;
+    color: #1192EE;
+}
+
+.curso img {
+    width: 90%;
+    border-radius: 20px;
+}
+
+.curso_autor {
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    margin-top: 5px;
+    font-size: 21px;
+    color: white;
+}
+
+.curso_autor svg {
+    padding-right: 10px;
+}
+
+.curso_descricion {
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+
+.curso_propiedades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curso_propiedades div{
+    width: 98.54px;
+    height: 98px;
+    background: #323537;
+    border-radius: 21px;
+    margin: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

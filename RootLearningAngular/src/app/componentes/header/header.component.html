@@ -11,7 +11,7 @@
             </div>
             
             <li class="elemento_item elemento_item--show">
-                <a routerLink="busqueda" class="elementos_link">
+                <a routerLink="busqueda/todos" class="elementos_link">
                     Cursos
                     <svg class="flecha" width="25" height="24" viewBox="0 0 25 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -21,22 +21,22 @@
                 </a>
                 <ul class="elemento_destino">
                     <li class="elemento_dentro">
-                        <a routerLink="busqueda" class="elementos_link elementos_link--dentro">Sofwate</a>
+                        <a routerLink="busqueda/todos" class="elementos_link elementos_link--dentro">Sofwate</a>
                     </li>
                     <li class="elemento_dentro">
-                        <a routerLink="busqueda" class="elementos_link elementos_link--dentro">Movil</a>
+                        <a routerLink="busqueda/todos" class="elementos_link elementos_link--dentro">Movil</a>
                     </li>
                     <li class="elemento_dentro">
-                        <a routerLink="busqueda" class="elementos_link elementos_link--dentro">Web</a>
+                        <a routerLink="busqueda/todos" class="elementos_link elementos_link--dentro">Web</a>
                     </li>
                     <li class="elemento_dentro">
-                        <a routerLink="busqueda" class="elementos_link elementos_link--dentro">BBDD</a>
+                        <a routerLink="busqueda/todos" class="elementos_link elementos_link--dentro">BBDD</a>
                     </li>
                 </ul>
             </li>
 
             <li class="elemento_item elemento_item--show">
-                <a routerLink="busqueda" class="elementos_link">
+                <a routerLink="busqueda/todos" class="elementos_link">
                     Ofertas
                     <svg class="flecha" width="25" height="24" viewBox="0 0 25 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -46,35 +46,35 @@
                 </a>
                 <ul class="elemento_destino">
                     <li class="elemento_dentro">
-                        <a routerLink="busqueda" class="elementos_link elementos_link--dentro">Ultimas ofertas</a>
+                        <a routerLink="busqueda/todos" class="elementos_link elementos_link--dentro">Ultimas ofertas</a>
                     </li>
                     <li class="elemento_dentro">
-                        <a routerLink="busqueda" class="elementos_link elementos_link--dentro">Ofertas diarias</a>
+                        <a routerLink="busqueda/todos" class="elementos_link elementos_link--dentro">Ofertas diarias</a>
                     </li>
                     <li class="elemento_dentro">
-                        <a hrouterLink="busqueda" class="elementos_link elementos_link--dentro">Packs</a>
+                        <a hrouterLink="busqueda/todos" class="elementos_link elementos_link--dentro">Packs</a>
                     </li>
                     <li class="elemento_dentro">
-                        <a routerLink="busqueda" class="elementos_link elementos_link--dentro">Ofertas limitadas</a>
+                        <a routerLink="busqueda/todos" class="elementos_link elementos_link--dentro">Ofertas limitadas</a>
                     </li>
                 </ul>
             </li>
 
             <li class="elemento_item">
-                <a routerLink="busqueda" class="elementos_link">Publica tu curso</a>
+                <a routerLink="busqueda/todos" class="elementos_link">Publica tu curso</a>
                 <ul class="elemento_destino" id="publicar_curso_extra">
                     <li class="elemento_dentro">
-                        <a routerLink="busqueda" class="elementos_link elementos_link--dentro">Mis cursos Publicados</a>
+                        <a routerLink="busqueda/todos" class="elementos_link elementos_link--dentro">Mis cursos Publicados</a>
                     </li>
                     <li class="elemento_dentro">
-                        <a routerLink="busqueda" class="elementos_link elementos_link--dentro">Publica tu curso</a>
+                        <a routerLink="busqueda/todos" class="elementos_link elementos_link--dentro">Publica tu curso</a>
                     </li>
                 </ul>
             </li>
 
         </ul>
 
-        <form method="get" id="barra_busqueda" class="busqueda" action="busqueda">
+        <form method="get" id="barra_busqueda" class="busqueda" action="busqueda/todos">
             <button (click)="showBar()" id="boton_salida" class="boton_salida--desactivado" type="button">
                 <svg width="24" height="24" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path

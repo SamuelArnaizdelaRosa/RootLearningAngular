@@ -1,0 +1,181 @@
+/*titulos*/
+.titulo_buscar {
+    padding: 0px 75px;
+    margin: 30px 0;
+    font-size: 25px;
+    color: white;
+}
+
+/*Cursos*/
+.curso {
+    width: 382px;
+    margin: 0px;
+    padding-bottom: 5%;
+    text-align: center;
+    margin: auto;
+
+    background: #424649;
+    border-radius: 37px;
+    color: white;
+}
+
+.curso_titulo {
+    font-size: 30px;
+    padding: 25px 0;
+    color: #1192EE;
+}
+
+.curso img {
+    width: 90%;
+    border-radius: 20px;
+}
+
+.curso_autor {
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    margin-top: 5px;
+    font-size: 21px;
+    color: white;
+}
+
+.curso_autor svg {
+    padding-right: 10px;
+}
+
+.curso_descricion {
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+
+.curso_propiedades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curso_propiedades div{
+    width: 98.54px;
+    height: 98px;
+    background: #323537;
+    border-radius: 21px;
+    margin: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Cartas precio y rating*/
+.final_card {
+    display: flex;
+    justify-content:space-around;
+    margin: 10px 0;
+    color: white;
+}
+
+.checked {
+    color: #FDD836;
+}
+
+.rating {
+    background-color: #323537;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.fa {
+    font-size: 20px;
+    margin: 0 5px;  
+}
+
+.precio {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1280px){
+
+    .curso {
+        width: 320px;
+        font-size: 18px; 
+    }
+
+    .curso_autor {
+        font-size: 18px; 
+    }
+    
+    .curso_descricion {
+        font-size: 18px; 
+    }
+    
+    .curso_propiedades div{
+        font-size: 18px;  
+    }
+
+    .curso_propiedades div{
+        width: 80px;
+        height: 80px;
+    }
+
+    .nav_busqueda {
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+
+    .curso {
+        width: 240px;
+        font-size: 18px; 
+    }
+
+    .curso_autor {
+        font-size: 18px; 
+    }
+    
+    .curso_descricion {
+        font-size: 18px; 
+    }
+    
+    .curso_propiedades div{
+        font-size: 18px;  
+    }
+
+    .curso_propiedades div{
+        width: 60px;
+        height: 60px;
+    }
+
+    .nav_busqueda {
+        display: none;
+    }
+
+    .rating {
+        background-color: #323537;
+        border-radius: 20px;
+        width: 150px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+    }
+    
+    .fa {
+        font-size: 12px;
+        margin: 0 5px;  
+    }
+}

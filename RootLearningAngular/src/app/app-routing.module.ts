@@ -18,7 +18,6 @@ const routes: Routes = [
   {path: "", component: HomeComponent},
   {path:"busqueda", component: BusquedaComponent,
     children: [
-      { path: '', component: BTodosComponent },
       { path: 'todos', component: BTodosComponent },
       { path: 'destacados', component: BDestacadosComponent },
       { path: 'cursos', component: BCursosComponent },
@@ -28,7 +27,7 @@ const routes: Routes = [
   },
   {path: "producto", component: ProductoComponent},
   {path: "login", component: LoginComponent},
-  {path: "regitro", component: RegisterComponent},
+  {path: "register", component: RegisterComponent},
   {path:"cesta",component: CestaComponent},
 ];
 

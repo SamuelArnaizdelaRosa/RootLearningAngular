@@ -4,6 +4,15 @@
     display: flex;
     background: #283540;
     justify-content: center;
+
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.nav_busqueda::-webkit-scrollbar {
+    display: none; 
 }
 
 .nav_busqueda div {
@@ -31,4 +40,10 @@ a {
 
 a:hover {
     box-shadow: inset 0px -5px 0px 0px #1192EE;
+}
+
+@media (max-width: 850px){
+    .nav_busqueda {
+        justify-content: none;
+    }
 }
